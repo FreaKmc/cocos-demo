@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner">
+      <UniqueIdentifier>{692f1b47-647b-4122-a56a-17243468f372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\实体">
+      <UniqueIdentifier>{8b6bf77b-d668-410e-8afd-f6341e02dcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\实体\主角">
+      <UniqueIdentifier>{55e7cf5d-fdc7-4eed-9e74-4ba48b6fb3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\场景">
+      <UniqueIdentifier>{524731f9-67cf-4518-97d0-412de27b958d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\场景\关卡场景">
+      <UniqueIdentifier>{6637b215-e7c8-48cb-b4b3-5ad0c1dcb5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\实体\怪物">
+      <UniqueIdentifier>{e00d2000-0419-453e-997f-e28e7a180584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\管理器">
+      <UniqueIdentifier>{18a28c22-f3dd-4471-94a6-7585267c22d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\管理器\怪物管理器">
+      <UniqueIdentifier>{f82fab10-d2fd-4472-ac96-3d4dccc22911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\字体">
+      <UniqueIdentifier>{0f48700b-1587-4e3b-a3e0-66326afd3693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\辅助类">
+      <UniqueIdentifier>{b7942bea-ce23-4ae8-8468-f73884403efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LittleRunner\控制类">
+      <UniqueIdentifier>{55d0c06a-1564-4434-b89c-69671908dee0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyHelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>LittleRunner\实体</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>LittleRunner\实体\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="TollgateScene.cpp">
+      <Filter>LittleRunner\场景\关卡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>LittleRunner\实体\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>LittleRunner\管理器\怪物管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowWord.cpp">
+      <Filter>LittleRunner\字体</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationUtil.cpp">
+      <Filter>LittleRunner\辅助类</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>LittleRunner\控制类</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerListener.cpp">
+      <Filter>LittleRunner\控制类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyHelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>LittleRunner\实体</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>LittleRunner\实体\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="TollgateScene.h">
+      <Filter>LittleRunner\场景\关卡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>LittleRunner\实体\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>LittleRunner\管理器\怪物管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowWord.h">
+      <Filter>LittleRunner\字体</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationUtil.h">
+      <Filter>LittleRunner\辅助类</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>LittleRunner\控制类</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerListener.h">
+      <Filter>LittleRunner\控制类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
