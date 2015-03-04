@@ -1,5 +1,5 @@
 #include "FlowWord.h"
-
+USING_NS_CC;
 FlowWord* FlowWord::create() {
 	FlowWord* flowWord = new FlowWord();
 
@@ -32,14 +32,14 @@ void FlowWord::showWord(const char* text, Point pos) {
 	ActionInterval* scaleLarge = ScaleTo::create(0.3f, 2.5f, 2.5f);
 	ActionInterval* scaleSmall = ScaleTo::create(0.5f, 0.5f, 0.5f);
 
-	CallFunc* callFunc = CallFunc::create(this, callfunc_selector(FlowWord::flowEnd));
+	CallFunc* callFunc = CallFunc::create(this, callfunc_selector(FlowWord::__flowEnd));
 
 	ActionInterval* actions = Sequence::create(scaleLarge, scaleSmall, callFunc, NULL);
 
 	m_textLab->runAction(actions);
 }
 
-void FlowWord::flowEnd() {
+void FlowWord::__flowEnd() {
 	/* 动作结束，从父节点中删除自身 */
 	m_textLab->setVisible(false);
 	m_textLab->removeFromParentAndCleanup(true);

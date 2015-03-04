@@ -2,11 +2,11 @@
 #define _Controller_H_
 
 #include "cocos2d.h"
-#include "ControllerListener.h"
 
-USING_NS_CC;
+class ControllerListener;
 
-class Controller :public Node{
+
+class Controller :public cocos2d::Node{
 public:
 	void setControllerListener(ControllerListener* controllerListener);
 

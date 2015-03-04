@@ -43,6 +43,9 @@
     <Filter Include="LittleRunner\控制类">
       <UniqueIdentifier>{55d0c06a-1564-4434-b89c-69671908dee0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LittleRunner\实体\主角\玩家">
+      <UniqueIdentifier>{a9acd3c9-1012-4255-ac1d-b28c5a1f4d9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -57,32 +60,32 @@
     <ClCompile Include="..\Classes\MyHelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>LittleRunner\实体</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>LittleRunner\实体\主角</Filter>
-    </ClCompile>
-    <ClCompile Include="TollgateScene.cpp">
+    <ClCompile Include="..\Classes\TollgateScene.cpp">
       <Filter>LittleRunner\场景\关卡场景</Filter>
     </ClCompile>
-    <ClCompile Include="Monster.cpp">
-      <Filter>LittleRunner\实体\怪物</Filter>
-    </ClCompile>
-    <ClCompile Include="MonsterManager.cpp">
-      <Filter>LittleRunner\管理器\怪物管理器</Filter>
-    </ClCompile>
-    <ClCompile Include="FlowWord.cpp">
-      <Filter>LittleRunner\字体</Filter>
-    </ClCompile>
-    <ClCompile Include="AnimationUtil.cpp">
+    <ClCompile Include="..\Classes\AnimationUtil.cpp">
       <Filter>LittleRunner\辅助类</Filter>
     </ClCompile>
-    <ClCompile Include="Controller.cpp">
+    <ClCompile Include="..\Classes\MonsterManager.cpp">
+      <Filter>LittleRunner\管理器\怪物管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Controller.cpp">
       <Filter>LittleRunner\控制类</Filter>
     </ClCompile>
-    <ClCompile Include="ControllerListener.cpp">
+    <ClCompile Include="..\Classes\ControllerListener.cpp">
       <Filter>LittleRunner\控制类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FlowWord.cpp">
+      <Filter>LittleRunner\字体</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>LittleRunner\实体\主角</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>LittleRunner\实体\主角\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Monster.cpp">
+      <Filter>LittleRunner\实体\怪物</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -98,32 +101,32 @@
     <ClInclude Include="..\Classes\MyHelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>LittleRunner\实体</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>LittleRunner\实体\主角</Filter>
-    </ClInclude>
-    <ClInclude Include="TollgateScene.h">
+    <ClInclude Include="..\Classes\TollgateScene.h">
       <Filter>LittleRunner\场景\关卡场景</Filter>
     </ClInclude>
-    <ClInclude Include="Monster.h">
-      <Filter>LittleRunner\实体\怪物</Filter>
-    </ClInclude>
-    <ClInclude Include="MonsterManager.h">
-      <Filter>LittleRunner\管理器\怪物管理器</Filter>
-    </ClInclude>
-    <ClInclude Include="FlowWord.h">
-      <Filter>LittleRunner\字体</Filter>
-    </ClInclude>
-    <ClInclude Include="AnimationUtil.h">
+    <ClInclude Include="..\Classes\AnimationUtil.h">
       <Filter>LittleRunner\辅助类</Filter>
     </ClInclude>
-    <ClInclude Include="Controller.h">
+    <ClInclude Include="..\Classes\MonsterManager.h">
+      <Filter>LittleRunner\管理器\怪物管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Controller.h">
       <Filter>LittleRunner\控制类</Filter>
     </ClInclude>
-    <ClInclude Include="ControllerListener.h">
+    <ClInclude Include="..\Classes\ControllerListener.h">
       <Filter>LittleRunner\控制类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FlowWord.h">
+      <Filter>LittleRunner\字体</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>LittleRunner\实体\主角</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>LittleRunner\实体\主角\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Monster.h">
+      <Filter>LittleRunner\实体\怪物</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

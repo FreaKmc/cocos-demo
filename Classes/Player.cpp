@@ -1,5 +1,5 @@
 #include "Player.h"
-
+using namespace cocos2d;
 Player::Player(){
 	m_isJumping = false;
 	m_iHP = 1000;

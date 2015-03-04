@@ -1,5 +1,5 @@
 #include "TollgateScene.h"
-
+USING_NS_CC;
 Scene* TollgateScene::createScene()
 {
 	// 'scene' is an autorelease object
@@ -36,7 +36,7 @@ bool TollgateScene::init(){
 	m_player->setPosition(Point(200, 140));
 	this->addChild(m_player, 3);
 
-	initBG();
+	__initBG();
 
 	this->scheduleUpdate();
 
@@ -47,7 +47,7 @@ bool TollgateScene::init(){
 	return true;
 }
 
-void TollgateScene::initBG(){
+void TollgateScene::__initBG(){
 	Size visibeSize = Director::getInstance()->getVisibleSize();
 	m_bgSprite1 = Sprite::create("HelloWorld.png");
 	m_bgSprite1->setPosition(Point(visibeSize.width/2,visibeSize.height/2));

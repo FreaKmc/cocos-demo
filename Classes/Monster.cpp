@@ -1,5 +1,5 @@
 #include "Monster.h"
-
+USING_NS_CC;
 Monster::Monster(){
 	m_isAlive = false;
 }

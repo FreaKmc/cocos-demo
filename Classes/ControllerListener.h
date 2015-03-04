@@ -2,7 +2,7 @@
 #define _ControllerListener_H_
 
 #include "cocos2d.h"
-using namespace cocos2d;
+
 
 class ControllerListener{
 public:

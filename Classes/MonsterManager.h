@@ -4,11 +4,10 @@
 #include "cocos2d.h"
 #include "Monster.h"
 #include "Player.h"
-USING_NS_CC;
 
 #define MAX_MONSTER_NUM 10
 
-class MonsterManager:public Node{
+class MonsterManager:public cocos2d::Node{
 public:
 	CREATE_FUNC(MonsterManager);
 	virtual bool init();
@@ -16,9 +15,9 @@ public:
 	virtual void update(float dt);
 private:
 	void createrMonster();
-	Player* m_player;
 private:
-	Vector<Monster*> m_monsterArr;
+	Player* m_player;
+	cocos2d::Vector<Monster*> m_monsterArr;
 
 };
 

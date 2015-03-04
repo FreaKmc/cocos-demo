@@ -4,7 +4,7 @@
 #include "cocos2d.h"
 #include "Entity.h"
 #include "FlowWord.h"
-using namespace cocos2d;
+
 
 #define  JUMP_ACTION_TAG 1
 

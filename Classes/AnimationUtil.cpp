@@ -1,5 +1,5 @@
 #include "AnimationUtil.h"
-
+USING_NS_CC;
 Animation* AnimationUtil::createWithSingleFrameName(const char* name, float delay, int iLoops){
 	SpriteFrameCache* cache = SpriteFrameCache::getInstance();
 

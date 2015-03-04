@@ -1,5 +1,5 @@
 #include "MonsterManager.h"
-
+USING_NS_CC;
 bool MonsterManager::init(){
 	createrMonster();
 	this->scheduleUpdate();

@@ -5,6 +5,8 @@
 #include "Entity.h"
 #include "Player.h"
 
+
+
 class Monster :public Entity{
 public:
 	Monster();
